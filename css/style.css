@@ -1,0 +1,19 @@
+
+
+nav{
+    border: 1px solid rgb(178, 145, 255);
+}
+
+#intro{
+    background-color: slateblue;
+    height: 100vh;
+}
+
+#how-to{
+    height: 500px;
+}
+
+.img-thumbnail{
+    height: 100px !important;
+    border: none;
+}
