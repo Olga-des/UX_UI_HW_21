@@ -27,7 +27,7 @@ nav{
 }
 
 .navbar-brand{
-    letter-spacing: .2em;
+    letter-spacing: .2em !important;
     color: rgb(201, 193, 255) !important;
-    padding: .5em;
+    padding: .5em !important;
 }
