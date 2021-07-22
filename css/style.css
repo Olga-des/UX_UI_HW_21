@@ -1,13 +1,9 @@
 
 
-nav{
-    border: 1px solid rgb(178, 145, 255);
-}
-
 .intro{
-    background-color: slateblue;
-    height: 100vh;
-    padding-top: 3rem!important;
+   background-color:rgb(97, 78, 150);
+    height: 60vh;
+    /* padding: none !important; */
 }
 
 #hero-links{
@@ -15,6 +11,11 @@ nav{
     align-content: center;
     margin-left: auto!important;
     margin-right: auto!important;
+}
+
+.search{
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 #how-to{
@@ -29,5 +30,15 @@ nav{
 .navbar-brand{
     letter-spacing: .2em !important;
     color: rgb(201, 193, 255) !important;
-    padding: .5em !important;
+    padding: .2em !important;
 }
+
+.jumbotron {
+    text-align: center;
+    padding-top: 2em;
+    color: snow;
+    height: 50vh;
+    background-image: url("../images/magic-trick-banner.png");
+    background-size: cover;
+    background-position: center;
+  }
