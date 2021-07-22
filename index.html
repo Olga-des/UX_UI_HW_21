@@ -20,17 +20,29 @@
   gtag('config', 'G-N8LG4MH37W');
 </script>
 
+<!-- Hotjar Tracking Code for https://olga-des.github.io/UX_UI_HW_21_Hobby/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2517313,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">ILLUSIONARY</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="my-2 my-md-0 mr-md-3 collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -49,10 +61,15 @@
           </div>
         </div>
     </nav>
-
-    <div id="intro" class="align-items-center">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-start">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Learn Magic!</h1>
+            <p class="lead">Become an Illusionist and amaze your audience.</p>
+        </div>
+        </div>
+    <section class="intro">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="hero-links">
+            <div class="col- ">
                 <div class="card text-center">
                     <div class="card-body">
                         <img src="images/magic-wand.png" class="img-thumbnail" alt="How to">
@@ -87,12 +104,12 @@
                 </div>
                 </div>
         </div>
-    </div>
+    </section>
 
     <section id="how-to">
         <div class="container">
             <h2>How to get started</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4 align-items-start">
+            <div class="row align-items-start">
               <div class="col-magic-type">
                 <div class="accordion" id="accordionExample">
                     <h4>1. Find your type of magic</h4>
